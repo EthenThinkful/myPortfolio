@@ -1,0 +1,40 @@
+.text-centered {
+  text-align: center;
+  height: auto;/* adding height element */
+} /* creating a text align class to be called in my html */
+
+.dark-background {
+  background-color: #001134;
+  color: white;
+  font-size: 18 bold;
+  font-family: Bradley Hand, cursive
+  } /* creating a background for the top and bottom of my website */
+
+.fontCenter {
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  padding: 200px 200px
+  margin: 50px 50px
+} /* font center is used to align each section to the center and present information about me organized */
+
+.fontSize {
+  font-size: 24px;
+  font-family: Bradley Hand, cursive;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+} /* creating a center class to hold my picture aligned in the center */
+
+body {
+  background-color: #C2C2C2;
+}
+
+a:link { color: blue; } 
+a:visited { color:#C230D0; } 
+a:link:hover { color: green; } 
+a:visited:hover { color: #FFFDC4; } /* styling my links with pseudo-class code */
+
